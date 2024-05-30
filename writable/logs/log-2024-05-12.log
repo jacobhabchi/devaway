@@ -1,0 +1,115 @@
+CRITICAL - 2024-05-12 12:38:50 --> ErrorException: Undefined variable $developersWithStatement
+in APPPATH\Controllers\Talent.php on line 80.
+ 1 APPPATH\Controllers\Talent.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $developersWithStatement', 'C:\\myproject\\app\\Controllers\\Talent.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-12 12:51:13 --> ErrorException: Undefined variable $keyword
+in APPPATH\Controllers\Talent.php on line 55.
+ 1 APPPATH\Controllers\Talent.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $keyword', 'C:\\myproject\\app\\Controllers\\Talent.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-12 12:52:44 --> ErrorException: foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Talent.php on line 52.
+ 1 APPPATH\Controllers\Talent.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\myproject\\app\\Controllers\\Talent.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-12 12:57:29 --> ErrorException: Undefined variable $term
+in APPPATH\Controllers\Talent.php on line 58.
+ 1 APPPATH\Controllers\Talent.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $term', 'C:\\myproject\\app\\Controllers\\Talent.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-12 12:58:46 --> ErrorException: Undefined array key "skills"
+in APPPATH\Views\content\talent_content.php on line 65.
+ 1 APPPATH\Views\content\talent_content.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "skills"', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 65)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(171): view('talent', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+ERROR - 2024-05-12 13:05:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':keyword, '%') ('python')' at line 3 in C:\myproject\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\myproject\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\myproject\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\myproject\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\myproject\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\myproject\vendor\codeigniter4\framework\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\myproject\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\myproject\app\Controllers\Talent.php(68): CodeIgniter\BaseModel->findAll()
+#7 C:\myproject\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+#8 C:\myproject\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+#9 C:\myproject\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\myproject\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\myproject\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\pu...')
+#12 {main}
+CRITICAL - 2024-05-12 13:05:24 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':keyword, '%') ('python')' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `developers`
+WHERE `statement` LIKE CONCAT(\'%\', :keyword, \'%\') :statement LIKE CONCAT(\'%\', :keyword, \'%\'):', [...], false)
+ 2 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Talent.php(68): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-12 13:05:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':keyword, '%') ('python')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `developers`
+WHERE `statement` LIKE CONCAT(\'%\', :keyword, \'%\') (\'python\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `developers`
+WHERE `statement` LIKE CONCAT(\'%\', :keyword, \'%\') (\'python\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `developers`
+WHERE `statement` LIKE CONCAT(\'%\', :keyword, \'%\') :statement LIKE CONCAT(\'%\', :keyword, \'%\'):', [...], false)
+ 4 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Talent.php(68): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-12 13:05:24 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':keyword, '%') ('python')' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `developers`
+WHERE `statement` LIKE CONCAT(\'%\', :keyword, \'%\') (\'python\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `developers`
+WHERE `statement` LIKE CONCAT(\'%\', :keyword, \'%\') (\'python\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `developers`
+WHERE `statement` LIKE CONCAT(\'%\', :keyword, \'%\') (\'python\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `developers`
+WHERE `statement` LIKE CONCAT(\'%\', :keyword, \'%\') :statement LIKE CONCAT(\'%\', :keyword, \'%\'):', [...], false)
+ 5 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Talent.php(68): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')

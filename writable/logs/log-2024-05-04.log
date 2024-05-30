@@ -1,0 +1,286 @@
+ERROR - 2024-05-04 01:44:50 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\myproject\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\myproject\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'devaway_databas...', 3306, '', 0)
+#1 C:\myproject\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\myproject\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\myproject\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\myproject\vendor\codeigniter4\framework\system\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\myproject\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 C:\myproject\app\Controllers\Validate.php(20): CodeIgniter\BaseModel->first()
+#7 C:\myproject\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Validate->login()
+#8 C:\myproject\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Validate))
+#9 C:\myproject\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\myproject\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\myproject\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\pu...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\myproject\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\myproject\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\myproject\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\myproject\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\myproject\vendor\codeigniter4\framework\system\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\myproject\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 C:\myproject\app\Controllers\Validate.php(20): CodeIgniter\BaseModel->first()
+#6 C:\myproject\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Validate->login()
+#7 C:\myproject\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Validate))
+#8 C:\myproject\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\myproject\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\myproject\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\pu...')
+#11 {main}
+CRITICAL - 2024-05-04 01:44:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `developers`
+WHERE `email` = :email:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(271): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Validate.php(20): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Validate->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Validate))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 02:14:49 --> Error: Object of class App\Controllers\Talent could not be converted to string
+in APPPATH\Controllers\Talent.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 02:16:03 --> Error: Class "App\Controllers\SkillsModel" not found
+in APPPATH\Controllers\Talent.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 02:38:43 --> ErrorException: Array to string conversion
+in APPPATH\Views\content\talent_content.php on line 41.
+ 1 APPPATH\Views\content\talent_content.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 41)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(73): view('talent', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 03:11:32 --> ErrorException: Undefined variable $matchingDevelopers
+in APPPATH\Views\content\talent_content.php on line 38.
+ 1 APPPATH\Views\content\talent_content.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $matchingDevelopers', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 38)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(13): view('talent')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 03:11:56 --> ErrorException: Undefined variable $matchingDevelopers
+in APPPATH\Views\content\talent_content.php on line 38.
+ 1 APPPATH\Views\content\talent_content.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $matchingDevelopers', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 38)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(13): view('talent')
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 03:30:44 --> ErrorException: Undefined variable $statement
+in APPPATH\Controllers\Apply.php on line 42.
+ 1 APPPATH\Controllers\Apply.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $statement', 'C:\\myproject\\app\\Controllers\\Apply.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 04:03:43 --> ErrorException: Undefined variable $searchQuery
+in APPPATH\Controllers\Talent.php on line 74.
+ 1 APPPATH\Controllers\Talent.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $searchQuery', 'C:\\myproject\\app\\Controllers\\Talent.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 04:04:18 --> ErrorException: Undefined array key "skills"
+in APPPATH\Views\content\talent_content.php on line 42.
+ 1 APPPATH\Views\content\talent_content.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "skills"', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 42)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(85): view('talent', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 04:58:53 --> ErrorException: Undefined variable $developersModel
+in APPPATH\Controllers\Talent.php on line 76.
+ 1 APPPATH\Controllers\Talent.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $developersModel', 'C:\\myproject\\app\\Controllers\\Talent.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 04:59:50 --> ErrorException: Undefined variable $developersModel
+in APPPATH\Controllers\Talent.php on line 76.
+ 1 APPPATH\Controllers\Talent.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $developersModel', 'C:\\myproject\\app\\Controllers\\Talent.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 05:00:52 --> ErrorException: Undefined variable $developersModel
+in APPPATH\Controllers\Talent.php on line 77.
+ 1 APPPATH\Controllers\Talent.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $developersModel', 'C:\\myproject\\app\\Controllers\\Talent.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 05:00:53 --> ErrorException: Undefined variable $developersModel
+in APPPATH\Controllers\Talent.php on line 77.
+ 1 APPPATH\Controllers\Talent.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $developersModel', 'C:\\myproject\\app\\Controllers\\Talent.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 05:00:54 --> ErrorException: Undefined variable $developersModel
+in APPPATH\Controllers\Talent.php on line 77.
+ 1 APPPATH\Controllers\Talent.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $developersModel', 'C:\\myproject\\app\\Controllers\\Talent.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 05:01:54 --> ErrorException: Undefined array key "skills"
+in APPPATH\Views\content\talent_content.php on line 42.
+ 1 APPPATH\Views\content\talent_content.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "skills"', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 42)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(80): view('talent', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 05:03:22 --> ErrorException: Undefined array key "skills"
+in APPPATH\Views\content\talent_content.php on line 45.
+ 1 APPPATH\Views\content\talent_content.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "skills"', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 45)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(80): view('talent', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 05:04:31 --> ErrorException: Undefined variable $skills
+in APPPATH\Controllers\Talent.php on line 76.
+ 1 APPPATH\Controllers\Talent.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $skills', 'C:\\myproject\\app\\Controllers\\Talent.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 05:04:42 --> ErrorException: Undefined array key "skills"
+in APPPATH\Views\content\talent_content.php on line 45.
+ 1 APPPATH\Views\content\talent_content.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "skills"', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 45)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(79): view('talent', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 05:05:39 --> ErrorException: Undefined array key "skills"
+in APPPATH\Views\content\talent_content.php on line 45.
+ 1 APPPATH\Views\content\talent_content.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "skills"', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 45)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(80): view('talent', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 05:05:40 --> ErrorException: Undefined array key "skills"
+in APPPATH\Views\content\talent_content.php on line 45.
+ 1 APPPATH\Views\content\talent_content.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "skills"', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 45)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(80): view('talent', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 05:06:19 --> ErrorException: Undefined array key "skills"
+in APPPATH\Views\content\talent_content.php on line 45.
+ 1 APPPATH\Views\content\talent_content.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "skills"', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 45)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(79): view('talent', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 06:59:12 --> Error: Call to undefined function set_value()
+in APPPATH\Views\content\talent_content.php on line 21.
+ 1 APPPATH\Views\base.php(27): include()
+ 2 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 6 APPPATH\Controllers\Talent.php(109): view('talent', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-04 08:15:41 --> ErrorException: Undefined variable $bio
+in APPPATH\Controllers\DeveloperDashboard.php on line 128.
+ 1 APPPATH\Controllers\DeveloperDashboard.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bio', 'C:\\myproject\\app\\Controllers\\DeveloperDashboard.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\DeveloperDashboard->updateDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeveloperDashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')

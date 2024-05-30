@@ -1,0 +1,176 @@
+CRITICAL - 2024-05-01 11:51:20 --> ErrorException: Undefined variable $firstName
+in APPPATH\Controllers\Apply.php on line 33.
+ 1 APPPATH\Controllers\Apply.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\myproject\\app\\Controllers\\Apply.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 12:05:19 --> ErrorException: Undefined variable $firstName
+in APPPATH\Controllers\Apply.php on line 33.
+ 1 APPPATH\Controllers\Apply.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\myproject\\app\\Controllers\\Apply.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 12:08:17 --> ErrorException: Undefined variable $firstName
+in APPPATH\Controllers\Apply.php on line 33.
+ 1 APPPATH\Controllers\Apply.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\myproject\\app\\Controllers\\Apply.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 12:15:43 --> ErrorException: Undefined variable $firstName
+in APPPATH\Controllers\Apply.php on line 33.
+ 1 APPPATH\Controllers\Apply.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\myproject\\app\\Controllers\\Apply.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 12:15:50 --> ErrorException: Undefined variable $firstName
+in APPPATH\Controllers\Apply.php on line 33.
+ 1 APPPATH\Controllers\Apply.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\myproject\\app\\Controllers\\Apply.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 12:20:13 --> ErrorException: Undefined variable $firstName
+in APPPATH\Controllers\Apply.php on line 33.
+ 1 APPPATH\Controllers\Apply.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\myproject\\app\\Controllers\\Apply.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 12:25:45 --> ErrorException: Undefined variable $firstName
+in APPPATH\Controllers\Apply.php on line 33.
+ 1 APPPATH\Controllers\Apply.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\myproject\\app\\Controllers\\Apply.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 12:31:31 --> ErrorException: Undefined variable $firstName
+in APPPATH\Controllers\Apply.php on line 33.
+ 1 APPPATH\Controllers\Apply.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\myproject\\app\\Controllers\\Apply.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 12:40:13 --> ErrorException: Undefined variable $firstName
+in APPPATH\Controllers\Apply.php on line 33.
+ 1 APPPATH\Controllers\Apply.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\myproject\\app\\Controllers\\Apply.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 12:43:44 --> ErrorException: Undefined variable $firstName
+in APPPATH\Controllers\Apply.php on line 33.
+ 1 APPPATH\Controllers\Apply.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\myproject\\app\\Controllers\\Apply.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 12:43:52 --> ErrorException: Undefined variable $firstName
+in APPPATH\Controllers\Apply.php on line 33.
+ 1 APPPATH\Controllers\Apply.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\myproject\\app\\Controllers\\Apply.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 12:53:45 --> ErrorException: Undefined variable $firstName
+in APPPATH\Controllers\Apply.php on line 33.
+ 1 APPPATH\Controllers\Apply.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\myproject\\app\\Controllers\\Apply.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 12:56:08 --> ErrorException: Undefined variable $firstName
+in APPPATH\Controllers\Apply.php on line 33.
+ 1 APPPATH\Controllers\Apply.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\myproject\\app\\Controllers\\Apply.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->admin()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 12:59:22 --> ErrorException: Undefined variable $firstName
+in APPPATH\Controllers\Apply.php on line 33.
+ 1 APPPATH\Controllers\Apply.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\myproject\\app\\Controllers\\Apply.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->admin()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 13:00:31 --> TypeError: App\Controllers\Apply::admin(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+in APPPATH\Controllers\Apply.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->admin()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+ERROR - 2024-05-01 13:07:35 --> mysqli_sql_exception: Column 'hourly_rate' cannot be null in C:\myproject\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\myproject\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\myproject\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\myproject\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\myproject\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\myproject\vendor\codeigniter4\framework\system\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\myproject\vendor\codeigniter4\framework\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\myproject\vendor\codeigniter4\framework\system\Model.php(749): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\myproject\app\Controllers\Apply.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\myproject\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Apply->apply()
+#9 C:\myproject\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+#10 C:\myproject\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\myproject\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\myproject\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\pu...')
+#13 {main}
+CRITICAL - 2024-05-01 13:07:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'hourly_rate' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `developers` (`first_name`, `last_name`, `email`, `password`, `hourly_rate`, `location`, `language`, `preffered_hours`, `contact_info`, `bio`) VALUES (:first_name:, :last_name:, :email:, :password:, :hourly_rate:, :location:, :language:, :preffered_hours:, :contact_info:, :bio:)', [...], false)
+ 2 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Apply.php(46): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 13:07:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'hourly_rate' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `developers` (`first_name`, `last_name`, `email`, `password`, `hourly_rate`, `location`, `language`, `preffered_hours`, `contact_info`, `bio`) VALUES (\'sarah\', \'smith\', \'ssmith@gmail.com\', \'$2y$10$ynQ9jn3OuyWFw.WnQKH7JuDN40P.G7zbVXo21yi7/QmuXFWwCKHIe\', NULL, \'Belgium\', NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `developers` (`first_name`, `last_name`, `email`, `password`, `hourly_rate`, `location`, `language`, `preffered_hours`, `contact_info`, `bio`) VALUES (\'sarah\', \'smith\', \'ssmith@gmail.com\', \'$2y$10$ynQ9jn3OuyWFw.WnQKH7JuDN40P.G7zbVXo21yi7/QmuXFWwCKHIe\', NULL, \'Belgium\', NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `developers` (`first_name`, `last_name`, `email`, `password`, `hourly_rate`, `location`, `language`, `preffered_hours`, `contact_info`, `bio`) VALUES (:first_name:, :last_name:, :email:, :password:, :hourly_rate:, :location:, :language:, :preffered_hours:, :contact_info:, :bio:)', [...], false)
+ 4 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Apply.php(46): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-01 13:07:35 --> [Caused by] mysqli_sql_exception: Column 'hourly_rate' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `developers` (`first_name`, `last_name`, `email`, `password`, `hourly_rate`, `location`, `language`, `preffered_hours`, `contact_info`, `bio`) VALUES (\'sarah\', \'smith\', \'ssmith@gmail.com\', \'$2y$10$ynQ9jn3OuyWFw.WnQKH7JuDN40P.G7zbVXo21yi7/QmuXFWwCKHIe\', NULL, \'Belgium\', NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `developers` (`first_name`, `last_name`, `email`, `password`, `hourly_rate`, `location`, `language`, `preffered_hours`, `contact_info`, `bio`) VALUES (\'sarah\', \'smith\', \'ssmith@gmail.com\', \'$2y$10$ynQ9jn3OuyWFw.WnQKH7JuDN40P.G7zbVXo21yi7/QmuXFWwCKHIe\', NULL, \'Belgium\', NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `developers` (`first_name`, `last_name`, `email`, `password`, `hourly_rate`, `location`, `language`, `preffered_hours`, `contact_info`, `bio`) VALUES (\'sarah\', \'smith\', \'ssmith@gmail.com\', \'$2y$10$ynQ9jn3OuyWFw.WnQKH7JuDN40P.G7zbVXo21yi7/QmuXFWwCKHIe\', NULL, \'Belgium\', NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `developers` (`first_name`, `last_name`, `email`, `password`, `hourly_rate`, `location`, `language`, `preffered_hours`, `contact_info`, `bio`) VALUES (:first_name:, :last_name:, :email:, :password:, :hourly_rate:, :location:, :language:, :preffered_hours:, :contact_info:, :bio:)', [...], false)
+ 5 SYSTEMPATH\Model.php(327): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(749): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Apply.php(46): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Apply->apply()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apply))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')

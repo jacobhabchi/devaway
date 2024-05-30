@@ -1,0 +1,185 @@
+CRITICAL - 2024-05-05 03:18:01 --> TypeError: stripos(): Argument #1 ($haystack) must be of type string, array given
+in APPPATH\Controllers\Talent.php on line 118.
+ 1 APPPATH\Controllers\Talent.php(118): stripos([...], 'python')
+ 2 [internal function]: App\Controllers\Talent->App\Controllers\{closure}([...])
+ 3 APPPATH\Controllers\Talent.php(115): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-05 03:46:51 --> ErrorException: Undefined variable $search_input
+in APPPATH\Views\content\talent_content.php on line 40.
+ 1 APPPATH\Views\content\talent_content.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search_input', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 40)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(109): view('talent', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-05 03:47:11 --> ErrorException: Undefined variable $searchInput
+in APPPATH\Views\content\talent_content.php on line 40.
+ 1 APPPATH\Views\content\talent_content.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $searchInput', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 40)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(109): view('talent', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-05 04:34:48 --> ErrorException: Undefined variable $searchInput
+in APPPATH\Views\content\talent_content.php on line 40.
+ 1 APPPATH\Views\content\talent_content.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $searchInput', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 40)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(115): view('talent', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-05 04:36:26 --> ErrorException: Undefined variable $searchInput
+in APPPATH\Views\content\talent_content.php on line 40.
+ 1 APPPATH\Views\content\talent_content.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $searchInput', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 40)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(115): view('talent', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-05 04:38:13 --> ErrorException: Undefined variable $skillsInput
+in APPPATH\Controllers\Talent.php on line 98.
+ 1 APPPATH\Controllers\Talent.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $skillsInput', 'C:\\myproject\\app\\Controllers\\Talent.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-05 05:30:41 --> Error: Cannot use object of type mysqli as array
+in APPPATH\Controllers\Talent.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-05 05:31:20 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Controllers\Talent.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-05 06:04:40 --> ErrorException: Undefined array key "skills"
+in APPPATH\Views\content\talent_content.php on line 60.
+ 1 APPPATH\Views\content\talent_content.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "skills"', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 60)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(152): view('talent', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-05 06:05:33 --> ErrorException: Undefined array key "skills"
+in APPPATH\Views\content\talent_content.php on line 60.
+ 1 APPPATH\Views\content\talent_content.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "skills"', 'C:\\myproject\\app\\Views\\content\\talent_content.php', 60)
+ 2 APPPATH\Views\base.php(27): include('C:\\myproject\\app\\Views\\content\\talent_content.php')
+ 3 APPPATH\Views\talent.php(3): include('C:\\myproject\\app\\Views\\base.php')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\myproject\\app\\Views\\talent.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('talent', [], true)
+ 7 APPPATH\Controllers\Talent.php(144): view('talent', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+ERROR - 2024-05-05 06:28:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, statement) = 'software'' at line 3 in C:\myproject\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\myproject\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\myproject\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\myproject\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\myproject\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\myproject\vendor\codeigniter4\framework\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\myproject\vendor\codeigniter4\framework\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\myproject\app\Controllers\Talent.php(54): CodeIgniter\BaseModel->findAll()
+#7 C:\myproject\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+#8 C:\myproject\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+#9 C:\myproject\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\myproject\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\myproject\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\pu...')
+#12 {main}
+CRITICAL - 2024-05-05 06:28:50 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, statement) = 'software'' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `developers`
+WHERE FIND_IN_SET(?, statement) = :FIND_IN_SET(?, statement):', [...], false)
+ 2 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Talent.php(54): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-05 06:28:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, statement) = 'software'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `developers`
+WHERE FIND_IN_SET(?, statement) = \'software\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `developers`
+WHERE FIND_IN_SET(?, statement) = \'software\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `developers`
+WHERE FIND_IN_SET(?, statement) = :FIND_IN_SET(?, statement):', [...], false)
+ 4 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Talent.php(54): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
+CRITICAL - 2024-05-05 06:28:50 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, statement) = 'software'' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `developers`
+WHERE FIND_IN_SET(?, statement) = \'software\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `developers`
+WHERE FIND_IN_SET(?, statement) = \'software\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `developers`
+WHERE FIND_IN_SET(?, statement) = \'software\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `developers`
+WHERE FIND_IN_SET(?, statement) = :FIND_IN_SET(?, statement):', [...], false)
+ 5 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Talent.php(54): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Talent->searchTalent()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Talent))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\myproject\\public\\index.php')
